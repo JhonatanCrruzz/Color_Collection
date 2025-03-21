@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta para SEO -->
+    <meta name="title" content="Color Collection - Almacena y Organiza tus Colores Favoritos" />
+    <meta name="description" content="Color Collection es una plataforma donde puedes guardar, organizar y acceder fácilmente a tu propio catálogo de colores. Encuentra inspiración y gestiona tus paletas de manera sencilla." />
+    <meta name="keywords" content="colores, paletas de colores, almacenamiento de colores, colores favoritos, diseño, inspiración, catálogo de colores, diseño web, UI, UX" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="es" />
+    <!-- Favicon -->
+    <link rel="icon" href="https://jhonatancrruzz.github.io/Color_Collection/assets/icons/favicon.ico" type="image/x-icon">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jhonatancrruzz.github.io/Color_Collection/" />
+    <meta property="og:title" content="Color Collection - Almacena y Organiza tus Colores Favoritos" />
+    <meta property="og:description" content="Guarda y organiza colores en tu propio catálogo personalizado. Descubre nuevas paletas y lleva tu creatividad al siguiente nivel." />
+    <meta property="og:image" content="https://jhonatancrruzz.github.io/Color_Collection/assets/images/preview.webp" />
+    <meta property="og:site_name" content="Color Collection" />
+    <meta property="og:locale" content="es_ES" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jhonatancrruzz.github.io/Color_Collection/" />
+    <meta property="twitter:title" content="Color Collection - Tu Catálogo de Colores Personalizado" />
+    <meta property="twitter:description" content="Guarda y gestiona colores fácilmente con Color Collection. Organiza tus paletas y encuentra inspiración." />
+    <meta property="twitter:image" content="https://jhonatancrruzz.github.io/Color_Collection/assets/images/preview.webp" />
+    <!-- Meta Tags para Compatibilidad con IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a5964c2c99.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/normalice.css">
+
+    <script src="./js/script.js"></script>
+    <!-- Autoría -->
+    <meta name="author" content="Jhonatan Cruz" />
+
+    <title>Color Collection</title>
+</head>
+<body>
+    <header>
+        <div id="acuarelas_container"></div>
+        <h1>Color Collection</h1>
+    </header>
+    <main>
+        <div class="main_container">
+            <p>Aquí encontrarás todos los colores que has guardado. Agrega nuevos colores a tu colección y accede a ellos fácilmente cuando los necesites.</p>
+            <div  class="form">
+                <input type="text" id="colorInput" placeholder="Ingresa un color (Ej: #ff5733)">
+                <button id="addColor">Agregar Color</button>
+            </div>
+        </div>
+        <div id="container_cube">
+            <!-- Los cubos de color se generarán dinámicamente con JavaScript -->
+        </div>
+            <!-- Botones y archivo de carga -->
+        <div class="button-container">
+            <button id="downloadButton">Descargar JSON</button>
+            <input type="file" id="fileInput" accept=".json">
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+

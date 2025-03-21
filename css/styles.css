@@ -1,0 +1,196 @@
+body {
+    height: 100vh;
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+
+}
+h1 {
+    font-family: "Caveat";
+    font-size: 5rem;
+    padding: 0; 
+    margin: .5rem;
+    text-align: center;
+}
+/* Estructura principal */
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin-bottom: 1rem;
+    z-index: 10;  /* Contenido encima de las manchas */
+    position: relative;
+}
+.main_container p {
+    font-family: "Advent_Pro";
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.form input {
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 2px solid #808080;
+    border-radius: 8px;
+}
+.form input:hover{
+    border: 2px solid #000000;
+    transition: .8s;
+}
+/* Contenedor de los cubos */
+#container_cube {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 10;  /* Por encima de las manchas */
+    position: relative;
+    align-items: center;
+    gap: 10px; /* Espacio entre los cubos */
+}
+.cubo {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    /* font-size: 1rem; */
+    /* font-family: "Anton"; */
+    border: 2px solid #000000;
+    border-radius: 8px;
+    text-shadow: 0px 0px 2px #000000, 0px 0px 2px #000000;
+    z-index: 5;  /* Cubos también por encima de las manchas */
+    transition: transform 0.5s ease-in-out, margin 0.5s ease-in-out; /* Transición suave */
+    position: relative; /* Para que z-index funcione */
+    margin: 5px;
+    overflow: hidden;  /* Asegura que el texto no se desborde del cubo */
+}
+/* El código hexadecimal está oculto inicialmente */
+.cubo span {
+    opacity: 0;  /* Ocultar el texto por defecto */
+    transition: opacity 0.3s ease; /* Transición suave para el cambio de opacidad */
+    position: absolute; /* Asegura que el texto esté dentro del cubo */
+    color: #EEEEEE; /* Color del texto */
+    font-size: 0.8rem; /* Tamaño más pequeño para que el código quepa dentro */
+    text-shadow: none; /* Elimina la sombra del texto */
+    color: #EEEEEE;
+    font-size: 1.2rem;
+    font-family: "Anton";
+    text-shadow: 0px 0px 2px #000000, 0px 0px 2px #000000;
+}
+.cubo:hover{
+    width: 100px;
+    height: 100px;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in; /* Entrada rápida */
+    margin: 0px;
+    z-index: 10; /* Ponerlo encima de los demás */
+} 
+/* Mostrar el código hexadecimal solo cuando se haga hover */
+.cubo:hover span {
+    opacity: 1;  /* Mostrar el texto al hacer hover */
+}
+/* Estilo del ícono de copiar */
+.cubo i {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+    opacity: 0;  /* Mostrar el ícono al hacer hover */
+    text-shadow: 0px 0px 2px #000000, 0px 0px 2px #000000;
+}
+/* Mostrar el ícono de copiar solo cuando se hace hover */
+.cubo:hover i {
+    opacity: 1;  /* Mostrar el ícono al hacer hover */
+}
+/* Cambio de color del ícono cuando se pasa el mouse sobre él */
+.cubo i:hover {
+    color: #006ADC;  /* Color verde al pasar el mouse */
+}
+/* Estilo para el input y el botón */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+/* Estilo para los botones de carga y descarga */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+#downloadButton {
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#downloadButton:hover {
+    background-color: #0056b3;
+}
+#fileInput {
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+
+@keyframes moverMancha {
+    from { transform: translateY(0) translateX(0) scale(1); }
+    to { transform: translateY(var(--randomY)) translateX(var(--randomX)) scale(1.2); }
+}
+.watercolor {
+    border-radius: 50%;
+    filter: blur(10px);
+    transition: opacity 2s ease-in-out;
+    position: absolute;
+    animation: moverMancha var(--animationDuration) infinite alternate ease-in-out;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

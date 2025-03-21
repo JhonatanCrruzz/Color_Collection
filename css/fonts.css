@@ -1,0 +1,197 @@
+/* =======================
+    Advent_Pro 
+======================= */
+/* AdventPro-Black */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-Black.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* AdventPro-BlackItalic */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-BlackItalic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+/* AdventPro-Bold */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-Bold.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* AdventPro-BoldItalic */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-BoldItalic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+/* AdventPro-ExtraBold */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-ExtraBold.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* AdventPro-ExtraBoldItalic */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-ExtraBoldItalic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+/* AdventPro-ExtraLight */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-ExtraLight.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* AdventPro-ExtraLightItalic */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-ExtraLightItalic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+/* AdventPro-Italic-VariableFont_wdth,wght */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-Italic-VariableFont_wdth\,wght.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+/* AdventPro-Italic */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-Italic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+/* AdventPro-Light */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-Light.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* AdventPro-LightItalic */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-LightItalic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+/* AdventPro-Medium */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-Medium.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* AdventPro-MediumItalic */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-MediumItalic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+/* AdventPro-Regular */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* AdventPro-SemiBold */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-SemiBold.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* AdventPro-SemiBoldItalic */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-SemiBoldItalic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+/* AdventPro-Thin */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-Thin.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* AdventPro-ThinItalic */
+@font-face {
+    font-family: "Advent_Pro";
+    src: url("../assets/fonts/AdventPro-ThinItalic.woff2") format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+
+/* =======================
+    Bad_Script 
+======================= */
+
+/* BadScript-Regular */
+@font-face {
+    font-family: "Bad_Script";
+    src: url("../assets/fonts/Bad_Script/BadScript-Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* =======================
+    Caveat 
+======================= */
+
+/* Bold */
+@font-face {
+    font-family: "Caveat";
+    src: url("../assets/fonts/Caveat-Bold.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+/* Medium */
+@font-face {
+    font-family: "Caveat";
+    src: url("../assets/fonts/Caveat/Caveat-Medium.woff2") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+/* Regular */
+@font-face {
+    font-family: "Caveat";
+    src: url("../assets/fonts/Caveat-Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+/* SemiBold */
+@font-face {
+    font-family: "Caveat";
+    src: url("../assets/fonts/Caveat-SemiBold.woff2") format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+/* =======================
+    Anton 
+======================= */
+
+/* Regular */
+@font-face {
+    font-family: "Anton";
+    src: url("../assets/fonts/Anton-Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
